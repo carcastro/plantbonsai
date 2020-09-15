@@ -12,7 +12,7 @@ class Body extends StatelessWidget {
       child: Column(
         children: <Widget>[
           ImageAndIcons(size: size),
-          TitleAndPrice(title: "Palmatu", country: "Japonés", price: 440),
+          TitleAndPrice(title: "Palmatu", country: "Japonés"),
           SizedBox(height: kDefaultPadding),
           Row(
             children: <Widget>[
@@ -28,7 +28,7 @@ class Body extends StatelessWidget {
                   color: kPrimaryColor,
                   onPressed: () {},
                   child: Text(
-                    "Buy Now",
+                    "Compra ahora",
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 16,

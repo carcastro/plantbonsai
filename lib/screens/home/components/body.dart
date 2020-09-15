@@ -9,9 +9,9 @@ import 'title_with_more_bbtn.dart';
 class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // It will provie us total height  and width of our screen
+    // Nos proporcionará la altura y el ancho total de nuestra pantalla.
     Size size = MediaQuery.of(context).size;
-    // it enable scrolling on small device
+    // permite el desplazamiento en un dispositivo pequeño
     return SingleChildScrollView(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -19,7 +19,7 @@ class Body extends StatelessWidget {
           HeaderWithSearchBox(size: size),
           TitleWithMoreBtn(title: "Recomendado", press: () {}),
           RecomendsPlants(),
-          TitleWithMoreBtn(title: "Featured Plants", press: () {}),
+          TitleWithMoreBtn(title: "Plantas Destacadas", press: () {}),
           FeaturedPlants(),
           SizedBox(height: kDefaultPadding),
         ],

@@ -18,7 +18,7 @@ class RecomendsPlants extends StatelessWidget {
             image: "assets/images/image_1.png",
             title: "Palmatum",
             country: "japonés",
-            price: 440,
+
             press: () {
               Navigator.push(
                 context,
@@ -32,7 +32,7 @@ class RecomendsPlants extends StatelessWidget {
             image: "assets/images/image_2.png",
             title: "Tabachin",
             country: "Japonés",
-            price: 440,
+
             press: () {
               Navigator.push(
                 context,
@@ -46,7 +46,7 @@ class RecomendsPlants extends StatelessWidget {
             image: "assets/images/image_3.png",
             title: "Junípero",
             country: "Chino",
-            price: 440,
+            
             press: () {},
           ),
         ],
